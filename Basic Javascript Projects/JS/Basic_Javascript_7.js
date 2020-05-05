@@ -1,4 +1,4 @@
-function get_Date() {
+function time_function() {
     var Time = new Date().getHours();
     var Reply;
     if (Time < 12 ==Time >0){
