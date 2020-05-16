@@ -62,7 +62,7 @@ let car = {
 document.getElementById("Car_Object").innerHTML = car.description();
 function Break() {
     var Digit = ""
-    var X= Math.floor(Math.random() *101);
+    var X= Math.floor(Math.random() *101); //chooses a random starting point for X
     while (X < 100) {
         Digit += "<br>" + X;
         X++;
