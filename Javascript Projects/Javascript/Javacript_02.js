@@ -9,14 +9,9 @@ function validateForm() {
       alert("Last Name must be filled out");
       return false;
     }
-    var password = document.forms["myForm"]["Password"].value;
-    if (password == "") {
-      alert("Password must be filled out");
+    var Phone = document.forms["myForm"]["Phone"].value;
+    if (Phone == "") {
+      alert("Phone number must be filled out");
       return false;
     }
-    var Email = document.forms["myForm"]["EMAIL"].value;
-    if (Email == "") {
-      alert("Email must be filled out");
-      return false;
-    }
-  } 
+  } ;
